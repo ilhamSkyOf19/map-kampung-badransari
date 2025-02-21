@@ -13,7 +13,7 @@ const icons = [
 function App() {
   return (
     <>
-      <h1 className="text-center font-poppins font-bold text-sm mt-4">PETA ADMINISTRASI KAMPUNG BADRAN SARI</h1>
+      <h1 className="text-center font-poppins font-bold text-sm mt-4 text-amber-300">PETA ADMINISTRASI KAMPUNG BADRAN SARI</h1>
       <h1 className="text-center font-poppins font-bold text-sm">KECAMATAN PUNGGUR</h1>
       <div className=" relative overflow-auto whitespace-nowrap overflow-x-scroll bg-white font-poppins font-semibold text-2xl">
         <img
