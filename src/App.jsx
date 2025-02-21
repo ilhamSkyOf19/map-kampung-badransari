@@ -1,7 +1,7 @@
 
 const icons = [
-  { src: "icon/icon_semenanjung.png", width: "3rem", top: "8rem", right: "2.8rem" },
-  { src: "./icon/masjid_hijau.png", width: "1.2rem", top: "11.5rem", right: "8.3rem" },
+  { src: "/icon/icon_semenanjung.png", width: "3rem", top: "8rem", right: "2.8rem" },
+  { src: "/icon/masjid_hijau.png", width: "1.2rem", top: "11.5rem", right: "8.3rem" },
   { src: "/icon/masjid_orange.png", width: "1rem", top: "13.7rem", right: "10.5rem" },
   { src: "/icon/masjid_hijau.png", width: "1rem", top: "7.2rem", right: "10.7rem" },
   { src: "/icon/masjid_orange.png", width: "1rem", top: "8.4rem", left: "8.1rem" },
@@ -13,7 +13,7 @@ const icons = [
 function App() {
   return (
     <>
-      <h1 className="text-center font-poppins font-bold text-sm mt-4 text-amber-300">PETA ADMINISTRASI KAMPUNG BADRAN SARI</h1>
+      <h1 className="text-center font-poppins font-bold text-sm mt-4">PETA ADMINISTRASI KAMPUNG BADRAN SARI</h1>
       <h1 className="text-center font-poppins font-bold text-sm">KECAMATAN PUNGGUR</h1>
       <div className=" relative overflow-auto whitespace-nowrap overflow-x-scroll bg-white font-poppins font-semibold text-2xl">
         <img
