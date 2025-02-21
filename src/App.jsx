@@ -1,14 +1,21 @@
+import semenanjung from "./assets/icon_semenanjung.png";
+import masjidHijau from "./assets/masjid_hijau.png";
+import masjidOrange from "./assets/masjid_orange.png";
+import lapangan from "./assets/lapangan.png";
+import iconSekolah from "./assets/icon_sekolah.png";
+import iconPustu from "./assets/icon_pustu.png";
+
 
 const icons = [
-  { src: "./assets/icon_semenanjung.png", width: "3rem", top: "8rem", right: "2.8rem" },
-  { src: "/masjid_hijau.png", width: "1.2rem", top: "11.5rem", right: "8.3rem" },
-  { src: "/masjid_orange.png", width: "1rem", top: "13.7rem", right: "10.5rem" },
-  { src: "/masjid_hijau.png", width: "1rem", top: "7.2rem", right: "10.7rem" },
-  { src: "/masjid_orange.png", width: "1rem", top: "8.4rem", left: "8.1rem" },
-  { src: "/lapangan.png", width: "1rem", top: "9.6rem", left: "8.7rem" },
-  { src: "/icon_sekolah.png", width: "0.8rem", top: "9.7rem", left: "8rem" },
-  { src: "/icon_sekolah.png", width: "0.8rem", top: "11.2rem", left: "7rem" },
-  { src: "/icon_pustu.png", width: "0.6rem", top: "10.9rem", left: "7.1rem" },
+  { src: semenanjung, width: "3rem", top: "8rem", right: "2.8rem" },
+  { src: masjidHijau, width: "1.2rem", top: "11.5rem", right: "8.3rem" },
+  { src: masjidOrange, width: "1rem", top: "13.7rem", right: "10.5rem" },
+  { src: masjidOrange, width: "1rem", top: "7.2rem", right: "10.7rem" },
+  { src: lapangan, width: "1rem", top: "8.4rem", left: "8.1rem" },
+  { src: iconSekolah, width: "1rem", top: "9.6rem", left: "8.7rem" },
+  { src: iconSekolah, width: "0.8rem", top: "9.7rem", left: "8rem" },
+  { src: iconSekolah, width: "0.8rem", top: "11.2rem", left: "7rem" },
+  { src: iconPustu, width: "0.6rem", top: "10.9rem", left: "7.1rem" },
 ];
 
 
