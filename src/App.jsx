@@ -1,18 +1,15 @@
 
 const icons = [
-  { src: "/icon/icon_semenanjung.png", width: "3rem", top: "8rem", right: "2.8rem" },
-  { src: "/icon/masjid_hijau.png", width: "1.2rem", top: "11.5rem", right: "8.3rem" },
-  { src: "/icon/masjid_orange.png", width: "1rem", top: "13.7rem", right: "10.5rem" },
-  { src: "/icon/masjid_hijau.png", width: "1rem", top: "7.2rem", right: "10.7rem" },
-  { src: "/icon/masjid_orange.png", width: "1rem", top: "8.4rem", left: "8.1rem" },
-  { src: "/icon/lapangan.png", width: "1rem", top: "9.6rem", left: "8.7rem" },
-  { src: "/icon/icon_sekolah.png", width: "0.8rem", top: "9.7rem", left: "8rem" },
-  { src: "/icon/icon_sekolah.png", width: "0.8rem", top: "11.2rem", left: "7rem" },
-  { src: "/icon/icon_pustu.png", width: "0.6rem", top: "10.9rem", left: "7.1rem" },
+  { src: "/icon_semenanjung.png", width: "3rem", top: "8rem", right: "2.8rem" },
+  { src: "/masjid_hijau.png", width: "1.2rem", top: "11.5rem", right: "8.3rem" },
+  { src: "/masjid_orange.png", width: "1rem", top: "13.7rem", right: "10.5rem" },
+  { src: "/masjid_hijau.png", width: "1rem", top: "7.2rem", right: "10.7rem" },
+  { src: "/masjid_orange.png", width: "1rem", top: "8.4rem", left: "8.1rem" },
+  { src: "/lapangan.png", width: "1rem", top: "9.6rem", left: "8.7rem" },
+  { src: "/icon_sekolah.png", width: "0.8rem", top: "9.7rem", left: "8rem" },
+  { src: "/icon_sekolah.png", width: "0.8rem", top: "11.2rem", left: "7rem" },
+  { src: "/icon_pustu.png", width: "0.6rem", top: "10.9rem", left: "7.1rem" },
 ];
-
-
-import jalan from "./assets/icon_jalan.png";
 function App() {
   return (
     <>
@@ -20,7 +17,7 @@ function App() {
       <h1 className="text-center font-poppins font-bold text-sm">KECAMATAN PUNGGUR</h1>
       <div className=" relative overflow-auto whitespace-nowrap overflow-x-scroll bg-white font-poppins font-semibold text-2xl">
         <img
-          src={jalan}
+          src="/icon_jalan.png"
           alt=""
           className="w-[15.3rem] absolute top-[1.6rem] left-[3.8rem] z-10"
         />
