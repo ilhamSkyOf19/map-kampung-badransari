@@ -4,6 +4,7 @@ import masjidOrange from "./assets/masjid_orange.png";
 import lapangan from "./assets/lapangan.png";
 import iconSekolah from "./assets/icon_sekolah.png";
 import iconPustu from "./assets/icon_pustu.png";
+import jalan from "./assets/icon_jalan.png";
 
 
 const icons = [
@@ -19,7 +20,6 @@ const icons = [
 ];
 
 
-import jalan from "./assets/icon_jalan.png";
 function App() {
   return (
     <>
