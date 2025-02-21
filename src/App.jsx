@@ -12,7 +12,7 @@ const icons = [
 ];
 
 
-import jalan from "../assets/jalan.png";
+import jalan from "./assets/icon_jalan.png";
 function App() {
   return (
     <>
