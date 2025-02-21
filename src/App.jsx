@@ -10,6 +10,9 @@ const icons = [
   { src: "/icon/icon_sekolah.png", width: "0.8rem", top: "11.2rem", left: "7rem" },
   { src: "/icon/icon_pustu.png", width: "0.6rem", top: "10.9rem", left: "7.1rem" },
 ];
+
+
+import jalan from "../assets/jalan.png";
 function App() {
   return (
     <>
@@ -17,7 +20,7 @@ function App() {
       <h1 className="text-center font-poppins font-bold text-sm">KECAMATAN PUNGGUR</h1>
       <div className=" relative overflow-auto whitespace-nowrap overflow-x-scroll bg-white font-poppins font-semibold text-2xl">
         <img
-          src="/icon/icon_jalan.png"
+          src={jalan}
           alt=""
           className="w-[15.3rem] absolute top-[1.6rem] left-[3.8rem] z-10"
         />
