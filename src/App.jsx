@@ -4,16 +4,16 @@ import masjidOrange from "./assets/masjid_orange.png";
 import lapangan from "./assets/lapangan.png";
 import iconSekolah from "./assets/icon_sekolah.png";
 import iconPustu from "./assets/icon_pustu.png";
-import jalan from "./assets/icon_jalan.png";
 
+import jalan from "./assets/icon_jalan.png";
 
 const icons = [
   { src: semenanjung, width: "3rem", top: "8rem", right: "2.8rem" },
   { src: masjidHijau, width: "1.2rem", top: "11.5rem", right: "8.3rem" },
   { src: masjidOrange, width: "1rem", top: "13.7rem", right: "10.5rem" },
   { src: masjidOrange, width: "1rem", top: "7.2rem", right: "10.7rem" },
-  { src: lapangan, width: "1rem", top: "8.4rem", left: "8.1rem" },
-  { src: iconSekolah, width: "1rem", top: "9.6rem", left: "8.7rem" },
+  { src: masjidHijau, width: "1rem", top: "8.4rem", left: "8.1rem" },
+  { src: lapangan, width: "1rem", top: "9.6rem", left: "8.7rem" },
   { src: iconSekolah, width: "0.8rem", top: "9.7rem", left: "8rem" },
   { src: iconSekolah, width: "0.8rem", top: "11.2rem", left: "7rem" },
   { src: iconPustu, width: "0.6rem", top: "10.9rem", left: "7.1rem" },
