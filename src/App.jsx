@@ -61,8 +61,8 @@ function App() {
 
 
     return (
-        <div className="w-auto">
-            <h1 className="py-10 text-lg text-center font-bold font-poppins">PETA KAMPUNG BADRAN SARI KECAMATAN PUNGGUR KABUPATEN LAMPUNG TENGAH</h1>
+        <div className="w-auto pt-42">
+            <h1 className="py-10 text-lg text-center font-bold font-poppins fixed -top-7">PETA KAMPUNG BADRAN SARI KECAMATAN PUNGGUR KABUPATEN LAMPUNG TENGAH</h1>
             {/* semenanjung */}
             <div onClick={handleSemenanjung} className="w-10 h-10 bg-transparent absolute top-[28rem] left-[30rem] cursor-pointer">
             </div>
@@ -113,13 +113,13 @@ function App() {
                     <p className="text-sm">Universitas Muhammadiyah Metro </p>
                 </div>
             </div>
-            {semenanjung ? <PopupMap img={semenanjungImg} topPosition={"21rem"} leftPosition={"25rem"} ref={ref} titleSatu="Wisata Alam" titleDua="Semenanjung" titleTiga="Badran" linkMaps={"https://maps.app.goo.gl/tTnsG63b35rZeYJQA"} /> : null}
-            {balai ? <PopupMap img={balaiImg} topPosition={"20rem"} leftPosition={"9rem"} ref={ref} titleSatu="Balai Desa" titleDua="Kampung" titleTiga="Badran Sari" linkMaps={"https://maps.app.goo.gl/jWQX3qdrDq1ysSNE9"} /> : null}
+            {semenanjung ? <PopupMap img={semenanjungImg} topPosition={"19rem"} leftPosition={"25rem"} ref={ref} titleSatu="Wisata Alam" titleDua="Semenanjung" titleTiga="Badran" linkMaps={"https://maps.app.goo.gl/tTnsG63b35rZeYJQA"} /> : null}
+            {balai ? <PopupMap img={balaiImg} topPosition={"18rem"} leftPosition={"9rem"} ref={ref} titleSatu="Balai Desa" titleDua="Kampung" titleTiga="Badran Sari" linkMaps={"https://maps.app.goo.gl/jWQX3qdrDq1ysSNE9"} /> : null}
             {lapangan ? <PopupMap img={lapanganImg} topPosition={"25rem"} leftPosition={"17rem"} ref={ref} titleSatu="Lapangan" titleDua="Kampung" titleTiga="Badran Sari" linkMaps={"https://maps.app.goo.gl/tueU44DbVuG7xo7E8"} /> : null}
             {sdDua ? <PopupMap img={sdDuaImg} topPosition={"32rem"} leftPosition={"13rem"} ref={ref} titleSatu="SDN 02" titleDua="Kampung" titleTiga="Badran Sari" linkMaps={"https://maps.app.goo.gl/D7M8PP8dZhZpA4bs9"} /> : null}
-            {pustu ? <PopupMap img={pustuImg} topPosition={"32rem"} leftPosition={"1rem"} ref={ref} titleSatu="Puskesmas Pembantu" titleDua="Kampung" titleTiga="Badran Sari" linkMaps={"https://maps.app.goo.gl/C1XFDzpRK3Rq9NHE9"} /> : null}
+            {pustu ? <PopupMap img={pustuImg} topPosition={"33rem"} leftPosition={"1rem"} ref={ref} titleSatu="Puskesmas Pembantu" titleDua="Kampung" titleTiga="Badran Sari" linkMaps={"https://maps.app.goo.gl/C1XFDzpRK3Rq9NHE9"} /> : null}
             {sdSatu ? <PopupMap img={sdSatuImg} topPosition={"30rem"} leftPosition={"15rem"} ref={ref} titleSatu="SDN 01" titleDua="Kampung" titleTiga="Badran Sari" linkMaps={"https://maps.app.goo.gl/U1xqgrue6Etq6wUY6"} /> : null}
-            {masjid ? <PopupMap img={masjidImg} topPosition={"23rem"} leftPosition={"15rem"} ref={ref} titleSatu="Majid AT-Taubat" titleDua="Kampung" titleTiga="Badran Sari" linkMaps={"https://maps.app.goo.gl/d2ggxxVSygQkUdvS9"} /> : null}
+            {masjid ? <PopupMap img={masjidImg} topPosition={"19rem"} leftPosition={"15rem"} ref={ref} titleSatu="Majid AT-Taubat" titleDua="Kampung" titleTiga="Badran Sari" linkMaps={"https://maps.app.goo.gl/d2ggxxVSygQkUdvS9"} /> : null}
 
         </div>
     )

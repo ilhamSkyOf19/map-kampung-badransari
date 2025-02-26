@@ -3,7 +3,7 @@ const PopupMap = ({ img, topPosition, leftPosition, ref, linkMaps, titleSatu = "
     return (
         <div
             ref={ref}
-            className="w-[50%] h-[13%] absolute bg-blue-600 flex justify-between items-center overflow-hidden py-12 px-4 rounded-md"
+            className="w-[50%] h-[17%] absolute bg-blue-600 flex justify-between items-center overflow-hidden py-12 px-4 rounded-md"
             style={{ top: topPosition, left: leftPosition, position: "absolute" }} // Gunakan inline style
         >
             <div className="w-[40%] flex justify-center items-center">
