@@ -7,6 +7,10 @@ import sdDuaImg from "./assets/sd_dua.png"
 import pustuImg from "./assets/pustu.png"
 import sdSatuImg from "./assets/sd_satu.png"
 import masjidImg from "./assets/masjid.png"
+import alHudaImg from "./assets/al_huda.png"
+import shirotulJannahImg from "./assets/shirotul_jannah.png"
+import musholaDusunDuaImg from "./assets/mushola_dusun_dua.png"
+import alImanImg from "./assets/al_iman.png"
 function App() {
     const [semenanjung, setSemenanjung] = useState(false);
     const [balai, setBalai] = useState(false);
@@ -15,6 +19,10 @@ function App() {
     const [pustu, setPustu] = useState(false);
     const [sdSatu, setSdSatu] = useState(false);
     const [masjid, setMasjid] = useState(false);
+    const [alHuda, setAlHuda] = useState(false);
+    const [shirotulJannah, setShirotulJannah] = useState(false);
+    const [musholaDusunDua, setMusholaDusunDua] = useState(false);
+    const [alIman, setAlIman] = useState(false);
 
     const handleSemenanjung = () => {
         setSemenanjung(!semenanjung);
@@ -38,6 +46,18 @@ function App() {
     const handleMasjid = () => {
         setMasjid(!masjid);
     }
+    const handleAlHuda = () => {
+        setAlHuda(!alHuda);
+    }
+    const handleShirotulJannah = () => {
+        setShirotulJannah(!shirotulJannah);
+    }
+    const handleMusholaDusunDua = () => {
+        setMusholaDusunDua(!musholaDusunDua);
+    }
+    const handleAlIman = () => {
+        setAlIman(!alIman);
+    }
 
     const ref = useRef(null);
     const handleClickOutside = (event) => {
@@ -49,6 +69,10 @@ function App() {
             setPustu(false);
             setSdSatu(false);
             setMasjid(false);
+            setAlHuda(false);
+            setShirotulJannah(false);
+            setMusholaDusunDua(false);
+            setAlIman(false);
         }
     };
 
@@ -66,14 +90,14 @@ function App() {
             {/* semenanjung */}
             <div onClick={handleSemenanjung} className="w-10 h-10 bg-transparent absolute top-[28rem] left-[30rem] cursor-pointer">
             </div>
-            {/* masjid dusun 3.3 */}
+            {/* masjid dusun 3.3
             <div onClick={handleSemenanjung} className="w-5 h-5 bg-transparent absolute top-[33.5rem] left-[21.8rem] cursor-pointer">
-            </div>
-            {/* masjid dusun 3.2 */}
+            </div> */}
+            {/* masjid dusun 3.2
             <div onClick={handleSemenanjung} className="w-5 h-5 bg-transparent absolute top-[36.7rem] left-[18.2rem] cursor-pointer">
-            </div>
+            </div> */}
             {/* masjid dusun 3.1 */}
-            <div onClick={handleSemenanjung} className="w-5 h-5 bg-transparent absolute top-[36rem] left-[10.8rem] cursor-pointer">
+            <div onClick={handleAlHuda} className="w-5 h-5 bg-transparent absolute top-[36rem] left-[10.8rem] cursor-pointer">
             </div>
             {/* sekolah sd 2 */}
             <div onClick={handleSdDua} className="w-5 h-3 bg-transparent absolute top-[32.6rem] left-[11.3rem] cursor-pointer">
@@ -82,13 +106,13 @@ function App() {
             <div onClick={handlePustu} className="w-5 h-3 bg-transparent absolute top-[31.6rem] left-[11.4rem] cursor-pointer">
             </div>
             {/* masjid besar 2 */}
-            <div onClick={handleSemenanjung} className="w-5 h-5 bg-transparent absolute top-[32.5rem] left-[15.9rem] cursor-pointer">
+            <div onClick={handleShirotulJannah} className="w-5 h-5 bg-transparent absolute top-[32.5rem] left-[15.9rem] cursor-pointer">
             </div>
             {/* masjid dusun 2.1 */}
-            <div onClick={handleSemenanjung} className="w-5 h-5 bg-transparent absolute top-[30rem] left-[15.9rem] cursor-pointer">
+            <div onClick={handleMusholaDusunDua} className="w-5 h-5 bg-transparent absolute top-[30rem] left-[15.9rem] cursor-pointer">
             </div>
             {/* masjid dusun 2.2 */}
-            <div onClick={handleSemenanjung} className="w-5 h-5 bg-transparent absolute top-[26rem] left-[17.7rem] cursor-pointer">
+            <div onClick={handleAlIman} className="w-5 h-5 bg-transparent absolute top-[26rem] left-[17.7rem] cursor-pointer">
             </div>
             {/* masjid besar 1 */}
             <div onClick={handleMasjid} className="w-4 h-4 bg-transparent absolute top-[26.4rem] left-[13.9rem] cursor-pointer">
@@ -120,6 +144,10 @@ function App() {
             {pustu ? <PopupMap img={pustuImg} topPosition={"33rem"} leftPosition={"1rem"} ref={ref} titleSatu="Puskesmas Pembantu" titleDua="Kampung" titleTiga="Badran Sari" linkMaps={"https://maps.app.goo.gl/C1XFDzpRK3Rq9NHE9"} /> : null}
             {sdSatu ? <PopupMap img={sdSatuImg} topPosition={"30rem"} leftPosition={"15rem"} ref={ref} titleSatu="SDN 01" titleDua="Kampung" titleTiga="Badran Sari" linkMaps={"https://maps.app.goo.gl/U1xqgrue6Etq6wUY6"} /> : null}
             {masjid ? <PopupMap img={masjidImg} topPosition={"19rem"} leftPosition={"15rem"} ref={ref} titleSatu="Majid AT-Taubat" titleDua="Kampung" titleTiga="Badran Sari" linkMaps={"https://maps.app.goo.gl/d2ggxxVSygQkUdvS9"} /> : null}
+            {alHuda ? <PopupMap img={alHudaImg} topPosition={"26rem"} leftPosition={"8rem"} ref={ref} titleSatu="Mashola Al-Huda" titleDua="Kampung" titleTiga="Badran Sari" linkMaps={"https://maps.app.goo.gl/yKd8Xb9NjcNJCJ3B7"} /> : null}
+            {shirotulJannah ? <PopupMap img={shirotulJannahImg} topPosition={"23rem"} leftPosition={"12rem"} ref={ref} titleSatu="Masjid Shiroul " titleDua="Jannah" titleTiga="Kampung Badran Sari" linkMaps={"https://maps.app.goo.gl/7g5CzCvWn4PsFXGY7"} /> : null}
+            {musholaDusunDua ? <PopupMap img={musholaDusunDuaImg} topPosition={"21rem"} leftPosition={"12rem"} ref={ref} titleSatu="Mushola Dusun II " titleDua="Kampung" titleTiga="Badran Sari" linkMaps={"https://maps.app.goo.gl/QFhVWJbMxjBe17tt8"} /> : null}
+            {alIman ? <PopupMap img={alImanImg} topPosition={"17rem"} leftPosition={"12rem"} ref={ref} titleSatu="Mushola Al-Iman " titleDua="Kampung" titleTiga="Badran Sari" linkMaps={"https://maps.app.goo.gl/TS7185ZpruwTHDFw8"} /> : null}
 
         </div>
     )

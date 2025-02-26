@@ -17,7 +17,9 @@ const PopupMap = ({ img, topPosition, leftPosition, ref, linkMaps, titleSatu = "
                     <h1 className="text-[0.5rem] font-semibold">{titleTiga}</h1>
                 </div>
                 <h2 className="text-[0.3rem]">Kampung Badran Sari, Kec. Punggur</h2>
-                <a href={linkMaps} className="text-[0.3rem] py-1 px-2 bg-yellow-400 text-blue-600 rounded-full font-semibold hover:border-yellow-400 hover:border-1 hover:bg-blue-600 min-h-[1rem] hover:text-white ">Telusuri</a>
+                <div>
+                    <a href={linkMaps} className="text-[0.3rem] py-1 px-2 bg-yellow-400 text-blue-600 rounded-full font-semibold hover:border-yellow-400 hover:border-1 hover:bg-blue-600  hover:text-white">Telusuri</a>
+                </div>
             </div>
         </div>
     );
